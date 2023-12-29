@@ -1,0 +1,22 @@
+.myProfile-strongSide {
+  margin-bottom: 20px;
+  &__title {
+    color: var(--primaryColor);
+    font: var(--Accent-4);
+    margin-bottom: 8px;
+  }
+
+  &__section {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .cell {
+    color: var(--color3);
+    font: var(--Text-1);
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: var(--background3);
+  }
+}

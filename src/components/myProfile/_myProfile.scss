@@ -1,0 +1,26 @@
+.myProfile-profile {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__title {
+    color: var(--primaryColor);
+    font: var(--Accent-2);
+    margin-bottom: 4px;
+  }
+
+  &__info {
+    color: var(--primaryColor);
+    font: var(--Text-6);
+    opacity: 0.6;
+    margin-bottom: 11px;
+  }
+
+  &__text {
+    color: var(--primaryColor);
+    font: var(--Text-3);
+    text-decoration: underline;
+  }
+}
