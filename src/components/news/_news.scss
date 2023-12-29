@@ -1,0 +1,33 @@
+.myHome-news {
+  padding-top: 40px;
+  margin-bottom: 40px;
+
+  &__text {
+    color: var(--primaryColor);
+    font: var(--Accent-1);
+    margin-bottom: 15px;
+  }
+
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .blocks {
+    padding: 20px;
+    min-width: 153px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    color: var(--white);
+    font: var(--Text-1);
+  }
+  &__block1 {
+    background: linear-gradient(90deg, #25196b 0%, #d994a7 100%);
+    box-shadow: 0px 15px 25px 0px rgba(115, 78, 133, 0.15);
+  }
+  &__block2 {
+    background: linear-gradient(90deg, #25196b 0%, #94d9b4 100%);
+    box-shadow: 0px 15px 25px 0px rgba(90, 116, 142, 0.15);
+  }
+}

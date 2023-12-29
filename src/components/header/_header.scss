@@ -1,0 +1,17 @@
+.myHome-header,
+.myProfile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__home {
+    color: var(--primaryColor);
+    font: var(--Accent-2);
+    text-align: center;
+  }
+
+  &__menu,
+  &__settings {
+    cursor: pointer;
+  }
+}

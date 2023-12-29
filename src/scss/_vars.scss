@@ -1,0 +1,31 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --ff: "Roboto", sans-serif;
+  --Accent: 300 18px / normal var(--ff);
+  --Accent-1: 300 24px / normal var(--ff);
+  --Accent-2: 500 16px / normal var(--ff);
+  --Accent-3: 500 24px / normal var(--ff);
+  --Text-1: 500 12px / normal var(--ff);
+  --Text-2: 400 10px / normal var(--ff);
+  --Text-3: 400 12px / normal var(--ff);
+  --Text-4: 400 16px / normal var(--ff);
+  --Text-5: 400 18px / normal var(--ff);
+
+  --primaryColor: #595085;
+  --white: #fff;
+  --accent2: #667085;
+  --background1: #f6f5fb;
+  --background2: #fff4f4;
+  --background3: #f5f9f9;
+  --color1: #61598b;
+  --color2: #ff3726;
+  --color3: #479696;
+  --color4: #c93f8d;
+  --colorThree: #403572;
+  --colorTvo: #ff5648;
+}

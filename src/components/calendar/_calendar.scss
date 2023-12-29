@@ -1,0 +1,38 @@
+.myHome-calendar {
+  min-width: 315px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--background1);
+  margin-inline: auto;
+  position: relative;
+  padding: 23px 0;
+  margin-bottom: 10px;
+
+  &__section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 7px;
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  &__text {
+    color: var(--colorThree);
+    font: var(--Text-4);
+  }
+
+  &__info {
+    color: var(--colorThree);
+    font: var(--Text-3);
+    opacity: 0.5;
+    padding-left: 54px;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+  }
+}
