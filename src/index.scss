@@ -10,6 +10,11 @@
 @import "./components/myProfile/myProfile";
 @import "./components/strongSide/strongSide";
 @import "./components/weakSide/weakSide";
+@import "./components/myReports/MyReports";
+@import "./ui/MyReports/MyReportsUser/myReportsUser";
+@import "./ui/MyReports/MyReportsCalendar/myReportsCalendar";
+@import "./ui/MyReports/MyReportsCheck/myReportsCheck";
+@import "./ui/MyReports/MyReportsHeart/myReportsHeart";
 
 @import "./scss/mixins";
 @import "./scss/vars";

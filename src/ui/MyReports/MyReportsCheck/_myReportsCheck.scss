@@ -1,0 +1,15 @@
+.MyReports {
+  &__section-check {
+    background: var(--background2);
+  }
+  &__section-text3 {
+    color: var(--colorTvo);
+    font: var(--Text-1);
+    margin-bottom: 10px;
+  }
+  &__section-info3 {
+    color: var(--color7);
+    font: var(--Text-2);
+    opacity: 0.5;
+  }
+}

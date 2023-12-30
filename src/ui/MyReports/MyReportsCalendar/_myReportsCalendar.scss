@@ -1,0 +1,15 @@
+.MyReports {
+  &__section-calendar {
+    background: var(--background3);
+  }
+  &__section-text2 {
+    color: var( --color3);
+    font: var(--Text-1);
+    margin-bottom: 10px;
+  }
+  &__section-info2 {
+    color: var(--color6);
+    font: var(--Text-2);
+    opacity: 0.7;
+  }
+}

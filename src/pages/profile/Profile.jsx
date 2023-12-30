@@ -5,6 +5,8 @@ import HeaderSettings from "../../ui/headerSettings/HeaderSettings";
 import MyProfile from "../../components/myProfile/MyProfile";
 import StrongSide from "../../components/strongSide/StrongSide";
 import WeakSide from "../../components/weakSide/WeakSide";
+import MyReports from "../../components/myReports/MyReports";
+import Icons from "../../components/icons/Icons";
 
 const Profile = () => {
   return (
@@ -17,6 +19,8 @@ const Profile = () => {
       <MyProfile />
       <StrongSide />
       <WeakSide />
+      <MyReports />
+      <Icons />
     </div>
   );
 };

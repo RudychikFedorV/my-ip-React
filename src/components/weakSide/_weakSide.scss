@@ -1,4 +1,6 @@
 .myProfile-weakSide {
+  margin-bottom: 48px;
+  
   &__title {
     color: var(--primaryColor);
     font: var(--Accent-4);
@@ -16,6 +18,6 @@
     font: var(--Text-1);
     padding: 8px 10px;
     border-radius: 8px;
-    background: var(--background3);
+    background: var(--background2);
   }
 }

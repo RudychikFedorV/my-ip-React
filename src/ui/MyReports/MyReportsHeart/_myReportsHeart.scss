@@ -1,0 +1,15 @@
+.MyReports {
+  &__section-heart {
+    background: var(--background4);
+  }
+  &__section-text4 {
+    color: var(--color4);
+    font: var(--Text-1);
+    margin-bottom: 10px;
+  }
+  &__section-info4 {
+    color: var(--color8);
+    font: var(--Text-2);
+    opacity: 0.7;
+  }
+}

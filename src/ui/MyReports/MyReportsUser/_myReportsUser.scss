@@ -1,0 +1,18 @@
+.MyReports {
+  &__section-user {
+    background: var(--background1);
+  }
+  &__section-svg {
+    margin-bottom: 10px;
+  }
+  &__section-text1 {
+    color: var(--colorThree);
+    font: var(--Text-1);
+    margin-bottom: 10px;
+  }
+  &__section-info1 {
+    color: var(--colorThree);
+    font: var(--Text-2);
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,20 @@
+.MyReports {
+  margin-bottom: 13px;
+
+  &__title {
+    color: var(--primaryColor);
+    font: var(--Accent-1);
+    margin-bottom: 15px;
+  }
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+  }
+  .sections {
+    min-width: 153px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+}
